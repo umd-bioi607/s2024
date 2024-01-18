@@ -4,7 +4,7 @@ course_description: "Algorithms and Data Structures for Bioinformatics"
 course_semester: "Spring 2024"
 
 baseurl: "/s2024" # the subpath of your site, e.g. /blog/
-url: "http://umd-bioi607.github.io/" # the base hostname & protocol for your site
+url: "http://umd-bioi607.github.io" # the base hostname & protocol for your site
 
 schoolname: "University of Maryland"
 schoolurl: "https://umd.edu"
