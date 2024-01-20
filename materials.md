@@ -63,7 +63,7 @@ We will cover the basic required molecular Biology in the course. However if you
 - [Molecular Biology: Principles of Genome Function 2nd Edition](https://www.amazon.com/Molecular-Biology-Principles-Genome-Function/dp/0198705972/) (Craig,  Green, Greider, Storz, Wolberger, Cohen-Fix, 2014)
 - [Molecular Biology](http://www.amazon.com/Molecular-Biology-Second-Edition-David/dp/0123785944) (Clark and Pazdernik 2012)
 
-**Expectations**: Since this is a computational biology course, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle. However, our focus will be on the computational aspects of bioinformatics and genomics. 
+**Expectations**: Since this is a course on data structures and algorithms for bioinformatics, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle. However, our focus will be on the computational aspects of bioinformatics and genomics. 
 
 ## Course Objectives
 
@@ -80,23 +80,22 @@ The following is a planned schedule of the material we will cover in the course,
   - Basic biology fundamentals, genomics concepts and motivating problems
 
 - Week of Jan 29.
-  - Fundamental challenges in genomics : Indexing and Search
-  - Read mapping and sequence homology search as motivating examples
+  - Fundamental challenges in genomics : Indexing and Search Overview
+  - Necessary CS concepts: Arrays, sorting, binary search
   - "Classic" indexing structures : suffix array
+    - Practical uses of the suffix array (MUMMER, STAR aligner)
 
 - Week of Feb 5.
-  - More full-text indexing 
   - Advanced suffix array concepts
-  - BWT and FM-index
+  - Maximum Mappable Prefix, Prefix lookup
+  - Necessary CS Concepts: Hashing, Hash Tables 
 
 - Week of Feb 12. 
-  - Read mapping (seeding, chaining, filtering)
-  - Contiguous vs. spliced read mapping
+  - Word-based indexing, k-mers, minimizers, strobemers
+  - Inverted indices in general, benefits and tradeoffs from the suffix array
 
 - Week of Feb 19.
-  - Sequence alignment, edit distance
-  - Optimized alignment variants, banded and blocked alignment 
-  - Project list out (tentative)
+  - Return of the full-text index: the BWT and FM-index
 
 - Week of Feb 27.
   - Rank, select, and basic succinct data structures
