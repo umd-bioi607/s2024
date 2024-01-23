@@ -63,6 +63,14 @@ We will cover the basic required molecular Biology in the course. However if you
 - [Molecular Biology: Principles of Genome Function 2nd Edition](https://www.amazon.com/Molecular-Biology-Principles-Genome-Function/dp/0198705972/) (Craig,  Green, Greider, Storz, Wolberger, Cohen-Fix, 2014)
 - [Molecular Biology](http://www.amazon.com/Molecular-Biology-Second-Edition-David/dp/0123785944) (Clark and Pazdernik 2012)
 
+
+**Programming, software development, and using the command line**
+
+In general in this course, we are going to be doing some programming.  There are many ways to develop software, but the vast majority of bioinformatics software runs from, and is developed with, command line tools.  Therefore, we will learn the basics of using these tools (e.g. how to properly create a tarball, how to invoke the compiler from the command line / a script, etc.).
+
+I realize it may have been a while since you have used these skills, or you may not have learned them at all. If you feel you need a refresher on these topics, or as an alternative resource to what I will cover, I would strongly suggest checking out [“The missing semester”](https://missing.csail.mit.edu/) (an MIT course dedicated to these various miscellaneous topics).
+
+
 **Expectations**: Since this is a course on data structures and algorithms for bioinformatics, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle. However, our focus will be on the computational aspects of bioinformatics and genomics. 
 
 ## Course Objectives
