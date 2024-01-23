@@ -1,6 +1,6 @@
 # Site settings
-course_name: Algorithms and Data Structures for Bioinformatics
-course_description: "Algorithms and Data Structures for Bioinformatics"
+course_name: Data Structures and Algorithms for Bioinformatics
+course_description: "Data Structures and Algorithms for Bioinformatics"
 course_semester: "Spring 2024"
 
 baseurl: "/s2024" # the subpath of your site, e.g. /blog/
