@@ -89,14 +89,14 @@ The following is a planned schedule of the material we will cover in the course,
 
 - Week of Jan 29.
   - Fundamental challenges in genomics : Indexing and Search Overview
-  - Necessary CS concepts: Arrays, sorting, binary search
+  - Necessary CS concepts: Arrays, sorting, binary search, asymptotics
   - "Classic" indexing structures : suffix array
     - Practical uses of the suffix array (MUMMER, STAR aligner)
 
 - Week of Feb 5.
   - Advanced suffix array concepts
   - Maximum Mappable Prefix, Prefix lookup
-  - Necessary CS Concepts: Hashing, Hash Tables 
+  - Necessary CS Concepts: Hashing, Hash Tables, more asymptotics (expected case)
 
 - Week of Feb 12. 
   - Word-based indexing, k-mers and minimizers
@@ -115,8 +115,7 @@ The following is a planned schedule of the material we will cover in the course,
   - What are the major categories (e.g. spliced vs. contiguous)
 
 - Week of March 12.
-  - Alignment-free sequence comparison
-  - Sketching, estimation, and related topics
+  - Tentative week of midterm.
   
 - Week of March 17.
   - **No class: Spring Break**
@@ -126,6 +125,7 @@ The following is a planned schedule of the material we will cover in the course,
 
 - Week of April 1.
   - More quantification using RNA-seq data, the EM algorithm and Maximum Likelihood inference
+  - Necessary CS concepts: Optimization, Maximum Likeihood Estimation, Statistical Inference
 
 - Week of April 8.
   - Computational challenges in single-cell RNA-seq
@@ -137,7 +137,9 @@ The following is a planned schedule of the material we will cover in the course,
   - Guest lecture : topic TBD
   
 - Week of April 29.
-  - TBD
+  - Alignment-free sequence comparison
+  - Sketching, estimation, and related topics
+  - Necessary CS concepts: sketching, approximate algorithms, approximate membership & filters
 
 - Week of May 6.
   - TBD
@@ -153,16 +155,11 @@ The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/u
 
 ## Course Policies
 
-**Coursework and grading**: The coursework will consist of 2-3 homework projects, a final project, and a final exam. Students will have an opportunity to select their final project in Feb.; there will be a few projects to choose from, and students will also be allowed to propose their own projects. The projects are to be done, ideally, in teams of 3 (I will allow the project to be done solo with approval, an _may_ approve a team of 4 if there is a compelling reason). Further, the grade for the final project will be broken down into components for the interim report, a final project presentation, and the final project delivery itself. For the final project, the final deliverables will consist of runnable code (including a link to a version-controlled repository containing the source), and a short (4-5 page) research-style paper describing the work you’ve done. The breakdown of weights for these different assignments will be as follows:
+**Coursework and grading**: The coursework will consist of several homework assignments (mostly programming projects), a midterm exam, and a final exam. The breakdown of weights for these different assignments will be as follows:
 
-- Homeworks - 25%
-- Final Project - 50%
-  - Interim report 10%
-  - Final presentation 10%
-  - Final report 30%
+- Homeworks - 50%
+- Midterm - 25%
 - Final Exam — 25%
-
-**Programming languages for homeworks**: As we will see throughout the course, modern computational genomics places a great emphasis on efficiency.  A very large part of this, of course, is algorithms and data structures, but another important part is the details of how these are implemented and the efficiency of the underlying implementation.  As a result, it's a requirement that the programming assignments (but not necessarily the final project) be completed in a _compiled_ (and ideally native) programming language.  Examples of languages that meet this requirement include Rust, Go, Nim, Zig, C, C++, Java, Kotlin and Scala. There are, of course, many others, and if you have a desire to use a specific language outside of this list, please just check with me first. However, languages like Python and R are not appropriate for the programming assignments we will be doing in the course and shouldn't be used.
 
 **Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 48 hours.  After 48 hours, late assignments will not be accepted.  Each student is allowed *one* free late assignment turnin (you can turn the assignment in up to 48 hours late with no penalty).  However, you must let me know that you are using your free late assignment _when you turn in your assignment_, and the decision is non-revocable (if you decide to use the free late assignment for assignment 1, you can't than request to take the late penalty for 1 and use the late assignment for assignment 2).
 
