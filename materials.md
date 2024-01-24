@@ -12,9 +12,7 @@ Here you'll find an overview of the course — the material I expect we'll cover
 
 ## Assumed prerequisites
 
-While there are no enforced course prerequisites for this class, we will assume a basic mathematical maturity and familiarity with 
-certain mathematical ideas.  Because no specific computer science prerequisites are assumed, we will have to spend some time covering the 
-basics of what will be required to understand the data structures and algorithms we will cover in class.  This includes:
+While there are no enforced course prerequisites for this class, we will assume a basic mathematical maturity and familiarity with certain mathematical ideas.  Because no specific computer science prerequisites are assumed, we will have to spend some time covering the basics of what will be required to understand the data structures and algorithms we will cover in class.  This includes:
 
   * Basic data structures and algorithms (arrays, lists, trees, hashing, divide-and-conquer, dynamic programming, greedy algorithm design, etc.)
   * Basic CS theory and asymptotic notation (the word-RAM model, familiarity wih big O notation, and perhaps little o, and Theta notation)
@@ -23,6 +21,8 @@ basics of what will be required to understand the data structures and algorithms
 ## Logistics
 
 * Course Website : [https://umd-bioi607.github.io/s2024](https://umd-bioi607.github.io/s2024)
+    * [Piazza](https://piazza.com/umd/spring2024/bioi607)
+    * [Gradescope](https://www.gradescope.com/courses/720443)
 * Instructor : Rob Patro
 * Instructor office hours: by appointment
 * Class location: IRB 2207
