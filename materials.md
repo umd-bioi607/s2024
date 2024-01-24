@@ -99,69 +99,57 @@ The following is a planned schedule of the material we will cover in the course,
   - Necessary CS Concepts: Hashing, Hash Tables 
 
 - Week of Feb 12. 
-  - Word-based indexing, k-mers, minimizers, strobemers
+  - Word-based indexing, k-mers and minimizers
   - Inverted indices in general, benefits and tradeoffs from the suffix array
 
 - Week of Feb 19.
   - Return of the full-text index: the BWT and FM-index
 
-- Week of Feb 27.
-  - Rank, select, and basic succinct data structures
-  - Minimal perfect hashing (BBhash data structure; maybe PTHash)
-  - Project selection & groups due
+- Week of Feb 26.
+  - Sequence alignment for read mapping (just a peek at what you'll learn in BIOI606)
+  - Necessary CS concepts: Recursion and Dynamic programming.
 
 - Week of March 5.
-  - "Signature" schemes : minimizers, syncmers, strobemers, k min-mers
-  - The de Bruijn graph and compacted de Bruijn graph
+  - Practical aspects of high-throughput read alignment.
+  - How do modern aligners work? What heuristics do they use?
+  - What are the major categories (e.g. spliced vs. contiguous)
 
 - Week of March 12.
-  - Constructing the compacted (colored) de Bruijn graph efficiently 
+  - Alignment-free sequence comparison
+  - Sketching, estimation, and related topics
   
 - Week of March 17.
   - **No class: Spring Break**
 
 - Week of March 25.
-  - More on constructed the compacted (colored) de Bruijn graph efficiently
-  - Reference indexing using the compacted de Bruijn graph 
+  - Quantification using RNA-seq data, challenges and opportunities
 
 - Week of April 1.
-  - Unitigs, simplitigs and spectrum preserving string sets
-  - Large-scale sequence search; Sequence Bloom Tree and variants
-  - Final project progress report due
+  - More quantification using RNA-seq data, the EM algorithm and Maximum Likelihood inference
 
 - Week of April 8.
-  - Large-scale sequence search (continued)
-  - Mantis, color set compression and the counting dBG
+  - Computational challenges in single-cell RNA-seq
   
 - Week of April 15.
-  - Single-cell transcriptome profiling, barcoding, UMI-resolution
   - Rob away April 18
 
 - Week of April 22.
-  - Downstream (computational) challenges in single-cell analysis
-  - Representation, visualization, feature selection, sketching, clustering, integration
+  - Guest lecture : topic TBD
   
 - Week of April 29.
-  - Final project presentations
+  - TBD
 
 - Week of May 6.
-  - Course wrapup
-  - May 9th is last day of class
+  - TBD
 
-- Fri May 10.
-  - Final exam available
-
-- Mon May 13.
-  - Final exam due by 11:59PM
-
-- Thurs May 16.
-  - Final project reports due by 11:59PM
+- Fri May 12.
+  - Final exam week
 
 ## Course Resources
 
-The course website is [https://umd-cmsc701.github.io/s2024](https://umd-cmsc701.github.io/s2024), which is probably where you are reading this right now.
+The course website is [https://umd-bioi607.github.io/s2024](https://umd-bioi607.github.io/s2024), which is probably where you are reading this right now.
 
-The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/spring2024/cmsc701).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
+The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/spring2024/bioi607).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
 
 ## Course Policies
 
