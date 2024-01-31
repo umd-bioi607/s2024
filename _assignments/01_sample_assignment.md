@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-08-28T4:00:00+4:30
+date: 2024-01-31T4:00:00+4:30
 title: 'Assignment #0 - Using the command line and parsing input'
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
@@ -8,17 +8,12 @@ title: 'Assignment #0 - Using the command line and parsing input'
 published: false
 due_event: 
     type: due
-    date: 2023-09-12T4:00:00+4:30
+    date: 2024-02-09T4:00:00+4:30
     description: 'Assignment #0 due'
 ---
 
-**Due: Tues September 12, 2023**  
-**Posted: August 31, 2023**  
-**Last updated: August 29, 2023**  
-
-**Note**: A "skeleton" structure for the project (using Java as the underlying language) has been created [here](https://github.com/umd-cmsc423/F23_A0_sample). It shows how to setup the relevant files, and how e.g. one would use `build.sh` to invoke `javac` to compile the source into a `.class` file and how one would create a script named `fasta_stats` to run the class file.
-
-You will implement a program for parsing a FASTA format file, computing some basic statistics about the records it contains, and printing these statistics to `stdout` in `JSON` format. 
+**Posted: Wed Jan 31, 2024**  
+**Due: Thurs Feb 9, 2024**  
 
 As you develop your proejct, I **highly, highly** recommend that you use [`git`](https://git-scm.com/book/en/v1/Getting-Started) for developing your code. If you use a service such as GitHub for hosting your code, 
 you should develop your code in a **private** repository.
@@ -33,13 +28,11 @@ A program that parses valid (possibly multi-line) FASTA files, computes certain 
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `CMSC423_F23_A0.tar.gz`.  When this tarball is expanded, it should create a folder named `CMSC423_F23_A0`.  The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
+You will submit your assignment as a tarball named `BIOI607_A0.tar.gz`.  When this tarball is expanded, it should create a folder named `BIOI607_A0`.  The details of how you structure your "source tree" are up to you, but recommendations are below.
 
- * There should be a script at the top-level of `CMSC423_F23_A0` called `build.sh`.  This should do whatever is necessary to create a single executables at the top level called `fasta_stats`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell. The generated `fasta_stats` file must be an _executable_ file that can be invoked directly as `./fasta_stats input_file`.  This means that if you are using a language like `java`, that requries launching a program with a runtime, then `fasta_stats` will likely be a wrapper script that properly invokes the corresponding main java entry point.  For a language like `C`, `C++`, `Rust`, or `Go`, then `fasta_stats` would simply be the compiled binary.
- 
+  
  * There should be a `README.md` file in the top level directory.  This README file should contain the following information.
      
-     - What language have you written your solution in?
      - What resources did you consult in working on this assignment (view this as a form of citation; you shouldn't _copy_ code directly from anywhere in your assignment, but if you consulted other sources please list them here).
 
 **Turnin** : The assignment turnin will be handled using Gradescope.  
