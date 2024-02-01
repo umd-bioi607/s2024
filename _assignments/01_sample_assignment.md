@@ -15,10 +15,7 @@ due_event:
 **Posted: Wed Jan 31, 2024**  
 **Due: Thurs Feb 9, 2024**  
 
-As you develop your proejct, I **highly, highly** recommend that you use [`git`](https://git-scm.com/book/en/v1/Getting-Started) for developing your code. If you use a service such as GitHub for hosting your code, 
-you should develop your code in a **private** repository.
-
-This program must be written in a _compiled_, statically-typed language (e.g. not Python). However, there is substantially flexibility in which particular language you want to use. The Gradescope image is outfitted with compilers for C, C++, Go, Java and Rust. We will also consider reasonable requests to add other compiled languages.
+As you develop your proejct, I **highly, highly** recommend that you use [`git`](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for developing your code. The easiest way to do this is to use [`GitHub`](https://www.github.com).
 
 # Overview
 
@@ -48,6 +45,7 @@ First, we'll create a directory to hold our source and change into it:
 Then, we need to create our source file.  For now, we'll just create a dummy file:
 
 ```
+> echo "Hi, Rob" > README.md
 > echo "!#/usr/local/env python3" > fasta_stats
 ```
 
