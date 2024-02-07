@@ -5,7 +5,7 @@ title: 'Assignment #0 - Using the command line and parsing input'
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf
-published: false
+published: true
 due_event: 
     type: due
     date: 2024-02-09T4:00:00+4:30
@@ -15,10 +15,7 @@ due_event:
 **Posted: Wed Jan 31, 2024**  
 **Due: Thurs Feb 9, 2024**  
 
-As you develop your proejct, I **highly, highly** recommend that you use [`git`](https://git-scm.com/book/en/v1/Getting-Started) for developing your code. If you use a service such as GitHub for hosting your code, 
-you should develop your code in a **private** repository.
-
-This program must be written in a _compiled_, statically-typed language (e.g. not Python). However, there is substantially flexibility in which particular language you want to use. The Gradescope image is outfitted with compilers for C, C++, Go, Java and Rust. We will also consider reasonable requests to add other compiled languages.
+As you develop your proejct, I **highly, highly** recommend that you use [`git`](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for developing your code. The easiest way to do this is to use [`GitHub`](https://www.github.com).
 
 # Overview
 
@@ -28,18 +25,51 @@ A program that parses valid (possibly multi-line) FASTA files, computes certain 
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `BIOI607_A0.tar.gz`.  When this tarball is expanded, it should create a folder named `BIOI607_A0`.  The details of how you structure your "source tree" are up to you, but recommendations are below.
+You will submit your assignment as a `tarball` named `BIOI607_A0.tar.gz`.  When this tarball is expanded, it should create a folder named `BIOI607_A0`.  The details of how you structure your "source tree" are up to you, but recommendations are below.
 
   
  * There should be a `README.md` file in the top level directory.  This README file should contain the following information.
      
      - What resources did you consult in working on this assignment (view this as a form of citation; you shouldn't _copy_ code directly from anywhere in your assignment, but if you consulted other sources please list them here).
 
+### How to create the proper structure for your project
+
+First, we'll create a directory to hold our source and change into it:
+
+```
+> mkdir BIOI607_A0
+> cd BIOI607_A0
+```
+
+
+Then, we need to create our source file.  For now, we'll just create a dummy file:
+
+```
+> echo "Hi, Rob" > README.md
+> echo "!#/usr/local/env python3" > fasta_stats
+```
+
+Finally, to create the "tarball" from our directory, we do the following.  First, we back up one level in the directory hierarchy:
+
+```
+> cd ..
+```
+
+Then, we run the following command:
+
+```
+> tar czvf BIOI607_A0.tar.gz BIOI607_A0
+```
+
+This should create an output file called `BIOI607_A0.tar.gz` in the current directory, which is something you can upload.
+
 **Turnin** : The assignment turnin will be handled using Gradescope.  
 
 ## The FASTA stats program
 
 You will write a program that reads and parses a `FASTA` format file and generates statistics about the records in the file. Your program will take a single command line parameter (the path to the input file).  The output will be written to `stdout`. This also means that you should not write any other messages to `stdout` — if you need to write diagnostic messgages from your program, you should write them to `stderr`. Your program should be called `fasta_stats`.
+
+**Note**: In `python`, the standard `print()` function writes to `stdout` by default, so that's where everything will be going if you are writing it with `print()`.
 
 ### Input 
 
