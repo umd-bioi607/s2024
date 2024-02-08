@@ -46,7 +46,7 @@ Then, we need to create our source file.  For now, we'll just create a dummy fil
 
 ```
 > echo "Hi, Rob" > README.md
-> echo "!#/usr/local/env python3" > fasta_stats
+> echo "#!/usr/bin/env python3" > fasta_stats
 ```
 
 Finally, to create the "tarball" from our directory, we do the following.  First, we back up one level in the directory hierarchy:
