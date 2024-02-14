@@ -40,6 +40,12 @@ You will submit your assignment as a tarball named `BIOI607_A1.tar.gz`.  When th
 
 **Turnin** : The assignment turnin will be handled using Gradescope.  
 
+## Sample data and input / output
+
+Sample data on which you can test your program is provided at [https://github.com/umd-bioi607/assignment_1_sample_data](https://github.com/umd-bioi607/assignment_1_sample_data
+).  Here you will find 2 test genomes, each with a pre-computed suffix array, as well as output for both the `inspect` and `query` portion 
+of the project.
+
 ## Part (a), inspecting the suffix array
 
 In this part of the assignment, you will write program called called `inspectsa`; it will read in a binary file containing the reference genome and suffix array, and then it will compute some statistics (details below) about the suffix array and write out a test file containing these statistics and the suffix array. 
