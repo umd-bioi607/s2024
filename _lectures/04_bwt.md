@@ -5,6 +5,6 @@ title: The BWT and FM-index
 tldr: "Another way to find needles in a haystack"
 thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec_3_bwt.pdf
+    - url: /static_files/presentations/lec_bwt.pdf
       name: slides
 ---
