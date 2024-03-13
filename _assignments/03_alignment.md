@@ -1,7 +1,7 @@
 ---
 type: assignment
 date: 2024-03-11T11:59:00+5:00
-title: "Project 3: Pairwise Global Alignment"
+title: "Assignment #2: Pairwise Global Alignment"
 published: true
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
