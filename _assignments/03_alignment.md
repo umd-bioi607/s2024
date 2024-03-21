@@ -32,13 +32,12 @@ You will write down the optimal alignment in terms of the backtrace through the 
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `BIOI607_A3.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `BIOI607_A3`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
+You will submit your assignment as a tarball named `BIOI607_A2.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `BIOI607_A3`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
 
- * There should be a script at the top-level of `BIOI607_A3` called `build.sh`.  This should do whatever is necessary to create 1 executable at the top level called `saligner`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
+ * The `saligner` script should live at the top-level of the `BIOI607_A2` folder, and should be marked as executable. As with prior submissions, please ensure that you place the "shebang" at the top of the file, and that you refer directly to `python3` rather than simply `python`.
  
  * There should be a `README.md` file in the top level directory.  This README file should contain the following information.
      
-     - What language have you written your solution in?
      - What did you find to be the hardest part of this assignment?
      - What resources did you consult in working on this assignment (view this as a form of citation; you shouldn't _copy_ code directly from anywhere in your assignment, but if you consulted other sources please list them here).
 
